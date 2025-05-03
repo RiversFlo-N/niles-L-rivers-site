@@ -3,90 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Niles Levi Rivers | This Is Me</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>Niles Levi Rivers</title>
   <style>
-    body {
+    body, html {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f5f5f5;
-      color: #111;
-      line-height: 1.6;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      height: 100%;
     }
-    header {
-      background: #1a1a1a;
-      color: #fff;
-      padding: 2rem;
+    .hero {
+      position: relative;
+      height: 100vh;
+      background: url("Niles%20Rivers%20Blk%26Wht.png") no-repeat center center/cover;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+    .overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
     }
-    header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
+    .hero-content {
+      position: relative;
+      padding: 2rem;
+      z-index: 1;
     }
-    section {
-      max-width: 800px;
-      margin: 3rem auto;
-      padding: 0 1rem;
-    }
-    h2 {
-      font-size: 1.8rem;
+    h1 {
+      font-size: 3rem;
       margin-bottom: 1rem;
     }
-    .bio p {
-      margin-bottom: 1.2rem;
-    }
-    .cta {
-      text-align: center;
-      margin-top: 3rem;
-    }
-    .cta a {
-      display: inline-block;
-      background: #111;
-      color: #fff;
-      text-decoration: none;
-      padding: 0.8rem 1.5rem;
-      border-radius: 5px;
-      font-weight: 600;
-      transition: background 0.3s;
-    }
-    .cta a:hover {
-      background: #333;
-    }
-    footer {
-      background: #1a1a1a;
-      color: #ccc;
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
+    p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Niles Levi Rivers</h1>
-    <p>Singer • Actor • Storyteller • Father</p>
-  </header>
-
-  <section class="bio">
-    <h2>This Is Me</h2>
-    <p>My name is Niles Levi Rivers, and I’m a singer, actor, musician, storyteller, and father. My voice and my heart have carried me through some high places… and some hard ones, too.</p>
-    <p>I’ve had the honor of recording with David Foster, playing Simba in <em>The Lion King</em>, and winning a songwriting contest judged by Prince. But the moments that matter most? They aren’t the accolades. They’re the ones where a stranger stops, tears in their eyes, and says, “I needed that.” When someone I’ve never met hears something I’ve sung and tells me, “That was my story, too.”</p>
-    <p>A serious injury recently forced me offstage, but it gave me something deeper—clarity. Groundedness. I’m not chasing fame. Never was. I’m here to tell the truth, and to pour that truth into music, story, and soul.</p>
-    <p>Right now, I’m rebuilding—not just a career, but a calling. With purpose. With a voice shaped for this very season. If you’ve ever heard me and felt something stir in your spirit, you already know.</p>
-    <p>I came up in a time when artists were expected to hide their real lives. But that’s not the road I’m walking anymore. This journey—this “Walk by the River”—is real. I’ll be sharing the struggles, the growth, and the victories that last. If you believe in second acts—or in Resurrection—I’d love to walk with you.</p>
-    <p>Because if we’re not spiritually whole, we’re not well. And I want my art to speak life. Let’s walk it out. Together.</p>
-  </section>
-
-  <div class="cta">
-    <a href="https://www.gofundme.com/f/your-campaign-link" target="_blank">Support the Journey</a>
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Walk with the Rivers</h1>
+      <p>Honest stories. Healing sounds. A voice with something to say. Welcome to the journey.</p>
+    </div>
   </div>
-
-  <footer>
-    &copy; 2025 Niles Levi Rivers. All rights reserved.
-  </footer>
 </body>
 </html>
